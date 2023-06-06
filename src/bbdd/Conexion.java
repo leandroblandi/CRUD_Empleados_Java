@@ -6,9 +6,9 @@ import java.util.ArrayList;
 public class Conexion {
 
     // Atributos de la base de datos
-    private static final String url = "jdbc:mysql://localhost:3306/empresa";
-    private static final String username = "root";
-    private static final String password = "4250_96Lz29072002 admin";
+    private static final String url = "jdbc:mysql://URL:PORT/DATABASE/";
+    private static final String username = "YOUR_USERNAME_HERE";
+    private static final String password = "YOUR_PASSWORD_HERE";
 
     private static Connection conexion = null;
 
